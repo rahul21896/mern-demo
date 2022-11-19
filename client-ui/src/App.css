@@ -12,6 +12,12 @@
     display: block;
 }
 
+.logo_small{
+    width: 120px;
+    display: block;
+    margin: 20px auto;
+}
+
 .menu_button{
     width: 100%;
     display: flex;
@@ -36,4 +42,56 @@
 .button_link:hover{
     background: #00adb5;
     color: #ffffff;
+}
+
+.login_form{
+    width: 100%;
+    min-width: 500px;
+    padding: 30px;
+    border-radius: 10px;
+    background: #00adb5;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+
+.ml-10{
+    margin-left: 10px;
+}
+
+.mt-5{
+    margin-top: 5px;
+}
+
+.mt-15{
+    margin-top: 15px;
+}
+
+.submit_button{
+    background: #000000 !important;
+    color: #00adb5 !important;
+    margin: 10px auto;
+    font-size: 18px;
+    text-align: center;
+    width: 100px;
+}
+
+.register_link{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.register_link:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.form_title{
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
 }
