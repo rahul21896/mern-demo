@@ -10,7 +10,9 @@ class Login extends React.Component{
                 <div>
                     <Row>
                         <Col>
-                            <img src={logo} alt="Dev Rahul" className={`logo_small`}/>
+                            <Link to={'/'}>
+                                <img src={logo} alt="Dev Rahul" className={`logo_small`}/>
+                            </Link>
                         </Col>
                     </Row>
                     <div className="login_form">
