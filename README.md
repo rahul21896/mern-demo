@@ -20,8 +20,9 @@ graph TD;
     H --> I[Manual Code Review];
     I --> J{Code Review Approved?};
     J -- No --> K[Provide Feedback and Fix Issues];
-    J -- Yes -- Conflicts -- No --> L[Merge To Dev];
-    J -- Yes -- Conflicts -- Yes --> Resolve Conflicts --> L[Merge to dev];
+    J -- Yes -- JJ[Conflicts];
+    JJ -- No --> L[Merge To Dev]
+    JJ -- Yes --> Resolve Conflicts --> L[Merge to dev];
     L --> M[Create Pull Request to qa];
     M --> N[Automated QA Checks];
     N --> O[QA Testing];
