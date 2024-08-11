@@ -1,6 +1,4 @@
-<div style="display:flex;justify-content:center;align-items:center;width:100%">
-    <img src="https://www.aexp-static.com/cdaas/one/statics/axp-static-assets/1.8.0/package/dist/img/logos/dls-logo-bluebox-solid.png" />
-</div>
+
 
 ## Branch Structure Overview
 - **`main`**: The production branch. Always contains stable and deployable code.
