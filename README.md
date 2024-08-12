@@ -6,7 +6,7 @@
 - **`qa`**: Quality assurance branch used for testing new features and bug fixes.
 - **`dev`**: Development branch where feature branches are merged after initial development.
 
-## Flowchart of the Code Review Process
+## Flowchart of the Code Review Process s
 
 ```mermaid
 graph TD;
